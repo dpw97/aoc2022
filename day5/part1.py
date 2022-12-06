@@ -1,5 +1,6 @@
 from collections import deque
 
+q = deque()
 lq = [deque() for _ in range(10)]
 FOUR = 4
 with open('moves.txt', 'r') as moves:

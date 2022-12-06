@@ -10,6 +10,6 @@ with open('file.txt','r') as file:
 
         if e1End >= e2Start and e1End <= e2End:
             total+=1
-        elif e2End >= e1Start and e2End <= e1End:
+        if e2End >= e1Start and e2End <= e1End:
             total+=1
 print(total)
